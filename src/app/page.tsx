@@ -264,7 +264,7 @@ export default function Home() {
             Lorem ipsum dolor sit amet consectetur. Commodo leo amet.
           </div>
           <div className="grid grid-cols-4 gap-0 px-20 place-items-center">
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hvav">
               <Image
                 src="/logo1.png"
                 alt="logo1"
@@ -273,7 +273,7 @@ export default function Home() {
                 className="object-contain"
               />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hvav">
               <Image
                 src="/logo2.png"
                 alt="logo2"
@@ -282,7 +282,7 @@ export default function Home() {
                 className="object-contain"
               />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hvav">
               <Image
                 src="/logo3.png"
                 alt="logo3"
@@ -291,7 +291,7 @@ export default function Home() {
                 className="object-contain"
               />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hvav">
               <Image
                 src="/logo4.png"
                 alt="logo4"
@@ -300,7 +300,7 @@ export default function Home() {
                 className="object-contain"
               />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hvav">
               <Image
                 src="/logo5.png"
                 alt="logo5"
@@ -309,7 +309,7 @@ export default function Home() {
                 className="object-contain"
               />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hvav">
               <Image
                 src="/logo6.png"
                 alt="logo6"
@@ -318,7 +318,7 @@ export default function Home() {
                 className="object-contain"
               />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hvav">
               <Image
                 src="/logo7.png"
                 alt="logo7"
@@ -327,7 +327,7 @@ export default function Home() {
                 className="object-contain z-1"
               />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hvav">
               <Image
                 src="/logo8.png"
                 alt="logo8"
@@ -336,7 +336,7 @@ export default function Home() {
                 className="object-contain"
               />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hvav">
               <Image
                 src="/logo9.png"
                 alt="logo9"
@@ -345,7 +345,7 @@ export default function Home() {
                 className="object-contain"
               />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hvav">
               <Image
                 src="/logo10.png"
                 alt="logo10"
@@ -354,7 +354,7 @@ export default function Home() {
                 className="object-contain -mt-5"
               />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hvav">
               <Image
                 src="/logo11.png"
                 alt="logo11"
@@ -363,7 +363,7 @@ export default function Home() {
                 className="object-contain -mt-12 z-0"
               />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center hvav">
               <Image
                 src="/logo12.png"
                 alt="logo12"
@@ -402,7 +402,7 @@ export default function Home() {
                   <p className="text-sm text-[#000000] flex-1">{card.descp}</p>
 
                   <div className="mt-6">
-                    <button className="link-primary text-lg! underline underline-offset-3">Learn more</button>
+                    <button className="link-primary text-lg! underline underline-offset-3 hvav">Learn more</button>
                   </div>
                 </div>
               </article>
@@ -529,8 +529,8 @@ export default function Home() {
             <div className="heading-lg mr-210 leading-10 mb-6">Lorem ipsum dolor sit amet </div>
             <div className="mr-180 mb-12 typo">Lorem ipsum dolor sit amet consectetur. Vulputate amet aliquet morbi suspendisse convallis. Urna a urna lectus donec felis risus duis pellentesque. Pellentesque ultricies ipsum.</div>
             <div className="flex flex-row gap-6">
-              <Image src="/Google.png" alt="img" height={25} width={125} />
-              <Image src="/apple.png" alt="img" height={25} width={125} />
+              <Image src="/Google.png" alt="img" height={25} width={125} className="hvav" />
+              <Image src="/apple.png" alt="img" height={25} width={125} className="hvav" />
             </div>
           </div>
         </div>
@@ -678,7 +678,7 @@ export default function Home() {
             <div className="heading-lg text-white! uppercase scale-y-110 scale-x-90 -ml-9 mb-4">
               Lorem ipsum dolor sit amet
             </div>
-            <button className="bg-white shadow-2xl text-black px-12 pb-1.5 scale-y-95 font-semibold py-1 rounded self-start mt-4">
+            <button className="bg-white shadow-2xl text-black px-12 pb-1.5 scale-y-95 font-semibold py-1 rounded self-start mt-4 hvav">
               Lorem Ipsum
             </button>
           </div>
@@ -759,12 +759,82 @@ export default function Home() {
           </div>
         </div>
         <div className="flex gap-6 pl-20 mb-20 text-white ">
-          <div className="rounded-full border-2 w-11 h-11 flex items-center justify-center">
+          <div className="rounded-full border-2 w-11 h-11 flex items-center justify-center hvav">
             <ArrowLeft className="w-4 h-4" />
           </div>
 
-          <div className="rounded-full border-2 w-11 h-11 flex items-center justify-center">
+          <div className="rounded-full border-2 w-11 h-11 flex items-center justify-center hvav">
             <ArrowRight className="w-4 h-4" />
+          </div>
+        </div>
+      </section>
+      <section className="w-full py-40 relative">
+        <div className="pl-20 pr-164">
+          <h4 className="uppercase heading-lg scale-x-80 scale-y-90 -ml-15 whitespace-nowrap mb-2">Lorem ipsum dolor sit amet</h4>
+          <div className="flex text-[#0F172A] mb-4">
+            <div className="px-8 py-1 border border-[#CBD5E1] rounded-l-md bg-[#F1F5F9]">Research</div>
+            <div className="px-8 py-1 border border-[#CBD5E1]">Plan</div>
+            <div className="px-8 py-1 border border-[#CBD5E1] rounded-r-md">Design</div>
+          </div>
+          <p className="text-[#475569] mb-6">Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
+          <div className="text-[#1959AC] text-sm font font-semibold flex gap-4 items-center hvav">
+            Check tools
+            <ArrowRight className="w-3 h-3 stroke-3 scale-x-120 mt-1 text-[#2563EB]" />
+          </div>
+        </div>
+        <div className="absolute top-40 right-20 w-130 h-70">
+          <Image
+            src="/s13.png"
+            alt="logo"
+            width={1000}
+            height={1000}
+            className="w-full h-full object-cover object-center" />
+        </div>
+      </section>
+      <section className="w-full relative overflow-visible bg-[#F1F1F1] mb-20">
+        <div className="relative pl-15 pt-15 pb-60">
+          <h1 className="uppercase text-[#1959AC]! heading-lg leading-11 scale-x-80 scale-y-90 -ml-33 pr-170 mb-2">Lorem ipsum dolor sit amet consectetur. Dignissim tellus.</h1>
+          <p className="typo leading-tight pr-155 mb-8">Lorem ipsum dolor sit amet consectetur. In malesuada morbi mi blandit laoreet urna sapien quam pulvinar. Dolor aliquet est tortor tincidunt ultricies feugiat mauris. Aliquam platea turpis porta nisl felis. Massa in facilisis semper libero eget eu quisque bibendum platea. Tortor fames.</p>
+          <button className="btn-primary flex items-center gap-2">
+            Lorem Ipsum <ArrowRight className="w-5 h-5 mt-1 scale-x-115" />
+          </button>
+          <div className="absolute gradr bottom-0 left-2 right-35" />
+        </div>
+        <div className="absolute bg-white left-15 right-190 px-8 py-8 z-20 top-100 shadow-2xl">
+          <h4 className="text-[20px] text-[#222222] font-semibold mb-6">Lorem ipsum dolor sit</h4>
+          <p className="mb-4">Lorem ipsum dolor sit amet consectetur. Habitant vestibulum vitae amet habitasse semper.</p>
+          <p className="mb-4">Lorem ipsum dolor sit amet consectetur. Egestas congue mattis ut placerat vitae amet suspendisse fermentum velit. Nibh dolor nunc id tristique sit.</p>
+          <p>Lorem ipsum dolor sit amet consectetur. Hac netus consectetur amet quisque scelerisque facilisi. Ultrices lectus viverra pharetra commodo.</p>
+        </div>
+        <div className="absolute left-180 pr-5 z-20 bottom-35 h-130">
+          <Image
+            src="/s14.png"
+            alt="img"
+            width={1000}
+            height={1000}
+            className="h-full w-full object-fill" />
+        </div>
+      </section>
+      <section className="w-full relative">
+        <div className="text-center px-15 relative">
+          <h1 className="heading-lg uppercase scale-x-80 scale-y-95 text-[#0F172A]!">Lorem ipsum dolor sit amet</h1>
+          <p className="text-[#0F172A] text-[17px] mb-16">Aliquet sed nulla tincidunt pulvinar sed fames sit facilisis dictumst. Ornare faucibus quis velit fringilla aliquam ultricies. Malesuada ut aliquam at ac est nisi, interdum etiam dignissim. Sed ut vestibulum eget purus ornare. Risus elit et fringilla habitant ut facilisi.</p>
+          <div className="h-90 w-155 pl-2">
+            <Image
+              src="/s15.png"
+              alt="img"
+              height={1000}
+              width={1000}
+              className="w-full h-full object-cover object-[50%_80%]" />
+          </div>
+          <div className="absolute border-[#E2E8F0] bg-white pl-10 pt-8 pb-8 pr-12 shadow-[0_0_6px_rgba(0,0,0,0.25),0_10px_15px_-3px_rgba(0,0,0,0.3)] rounded-sm bottom-15 right-15 left-152 text-start">
+            <div className="text-[#475569] text-[24px] font-semibold mb-2">
+              Artist & Investor
+            </div>
+            <p className="tex-[#0F172A] text-[18px] mb-6">Enim sagittis, sit porttitor morbi lobortis amet, libero adipiscing auctor. Malesuada tristique libero, id netus tincidunt. Egestas ac arcu amet nisl quis est ...</p>
+            <div className="text-[#1959AC] font-semibold text-[16px] flex items-center gap-4 hvav">
+              Read Full Story
+              <ArrowRight className="w-5 h-5 mt-1 scale-y-90 stroke-3"/></div>
           </div>
         </div>
       </section>
