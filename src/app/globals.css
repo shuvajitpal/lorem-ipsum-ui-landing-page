@@ -25,7 +25,7 @@
 }
 
 .hvav{
-  @apply active:scale-95 hover:scale-105 transition-all duration-300;
+  @apply active:scale-95 hover:scale-105 transition-all duration-300 cursor-pointer;
 }
 
 .gradr{

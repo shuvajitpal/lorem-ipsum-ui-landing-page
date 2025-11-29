@@ -5,7 +5,7 @@ import Logo from "@/Buttons/Logo";
 import { useState, useEffect } from "react";
 
 export default function Navbar() {
-  const [isVisible, setIsVisible] = useState(true); // Start visible at top
+  const [isVisible, setIsVisible] = useState(true);
   const [isScrolled, setIsScrolled] = useState(false);
   const navLinks = Array.from({ length: 3 }, () => ({ text: 'Lorem ipsum' }));
 
@@ -13,7 +13,6 @@ export default function Navbar() {
     const handleScroll = () => {
       const scrolled = window.scrollY > 50;
       setIsScrolled(scrolled);
-      // Hide navbar when scrolled down, show when at top
       setIsVisible(!scrolled);
     };
 
@@ -36,13 +35,12 @@ export default function Navbar() {
       {isScrolled && (
         <div
           className="fixed top-0 left-0 w-full h-12 z-40 bg-transparent"
-          onMouseEnter={handleMouseEnter}
-        />
+          onMouseEnter={handleMouseEnter}/>
       )}
       <AnimatePresence>
         {isVisible && (
           <motion.nav
-            className={`fixed w-full h-[60px] left-0 top-0 z-50 ${!isScrolled ? 'bg-transparent' : 'bg-white/25 backdrop-blur-md'} shadow-sm`}
+            className={`fixed w-full h-[60px] left-0 top-0 z-50 ${!isScrolled ? 'bg-transparent' : 'bg-black/10 backdrop-blur-xl'} shadow-sm`}
             initial={{ y: -100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -100, opacity: 0 }}
@@ -65,8 +63,7 @@ export default function Navbar() {
                 {navLinks.map((item, index) => (
                   <div
                     key={index}
-                    className="link-primary flex items-center gap-0.5 hover:text-blue-600 transition-colors cursor-pointer"
-                  >
+                    className="link-primary flex items-center gap-0.5 hover:text-blue-600 transition-colors cursor-pointer hvav">
                     {item.text}
                     <ChevronDown className="h-3 w-3 mt-1" />
                   </div>
@@ -76,8 +73,7 @@ export default function Navbar() {
               <motion.button
                 className="px-5 py-1 bg-white text-gray-900 text-xs font-bold rounded-sm shadow-md hover:shadow-xl transition-all duration-200 hover:-translate-y-0.5"
                 whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
+                whileTap={{ scale: 0.95 }}>
                 Sign In
               </motion.button>
             </motion.div>

@@ -318,7 +318,7 @@ export default function Home() {
                 className="object-contain"
               />
             </div>
-            <div className="flex items-center justify-center hvav">
+            <div className="flex items-center justify-center hvav hover:z-10">
               <Image
                 src="/logo7.png"
                 alt="logo7"
@@ -384,11 +384,11 @@ export default function Home() {
           <div className="mr-140 mb-15">
             Lorem ipsum dolor sit amet consectetur. Amet sodales sociis facilisis donec dui. Mi porttitor ut aliquam mattis maecenas eget integer in nam. Non nisl iaculis at felis aliquet. Hendrerit tellus at purus lectus.
           </div>
-          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-12 px-40">
+          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-12 px-40 py-10">
             {cards.map((card, idx) => (
               <article
                 key={idx}
-                className="card h-110 rounded-lg shadow-sm bg-white flex flex-col grid-rows-2"
+                className="card h-110 rounded-lg shadow-sm bg-white flex flex-col grid-rows-2 hover:scale-105 duration-300 transition-all hover:shadow-lg"
               >
                 <div className="card-image mb-2">
                   <img
@@ -436,17 +436,17 @@ export default function Home() {
             <div className="flex  gap-6">
               <div className="flex-1 text-[#0E0D0D]">
                 <p className="mb-4">Name</p>
-                <input type="text" className="bg-gray-100 border border-gray-300 rounded-sm w-full py-2" />
+                <input type="text" className="bg-gray-100 border border-gray-300 rounded-sm w-full py-2 pl-4" />
               </div>
               <div className="flex-1">
                 <p className="mb-4">E-mail</p>
-                <input type="text" className="bg-gray-100 border border-gray-300 rounded-sm w-full py-2" />
+                <input type="text" className="bg-gray-100 border border-gray-300 rounded-sm w-full py-2 pl-4" />
               </div>
             </div>
             <div className="flex  gap-6">
               <div className="flex-1">
                 <p className="mb-4">Phone Number</p>
-                <input type="text" className="bg-gray-100 border border-gray-300 rounded-sm w-full py-2" />
+                <input type="text" className="bg-gray-100 border border-gray-300 rounded-sm w-full py-2 pl-4" />
               </div>
               <div className="flex-1">
                 <p className="mb-4">Time Frame<span className="text-red-500">*</span></p>
@@ -649,16 +649,16 @@ export default function Home() {
                 Lorem ipsum dolor sit amet consectetur. Vel pellentesque odio enim amet non.
               </p>
               <div className="typo font-semibold text-[20px] pr-20">
-                <div className="flex justify-between">
+                <div className="flex justify-between cursor-pointer">
                   <div className="flex flex-col gap-2">
-                    <h4>Lorem Ipsum</h4>
-                    <h4>Lorem Ipsum</h4>
-                    <h4>Lorem Ipsum</h4>
+                    <h4 className="hvav">Lorem Ipsum</h4>
+                    <h4 className="hvav">Lorem Ipsum</h4>
+                    <h4 className="hvav">Lorem Ipsum</h4>
                   </div>
                   <div className="flex flex-col gap-2">
-                    <h4>Lorem Ipsum</h4>
-                    <h4>Lorem Ipsum</h4>
-                    <h4>Lorem Ipsum</h4>
+                    <h4 className="hvav">Lorem Ipsum</h4>
+                    <h4 className="hvav">Lorem Ipsum</h4>
+                    <h4 className="hvav">Lorem Ipsum</h4>
                   </div>
                 </div>
               </div>
@@ -693,7 +693,7 @@ export default function Home() {
               width={500}
               className="w-15 h-15" />
             <p>Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.</p>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 hvav">
               <Image
                 src="/1stp.jpg"
                 alt="logo"
@@ -711,7 +711,7 @@ export default function Home() {
               width={500}
               className="w-15 h-15" />
             <p>Vehicula sit sit pharetra bibendum ut risus accumsan. Purus, in metus, enim, ipsum morbi euismod pellentesque. Mattis pharetra accumsan eget est mi enim, id. Sit quam tortor eu tellus non, in euismod integer.</p>
-            <div className="flex items-center gap-4 mt-10">
+            <div className="flex items-center gap-4 mt-10 hvav">
               <Image
                 src="/2ndp.jpg"
                 alt="logo"
@@ -729,7 +729,7 @@ export default function Home() {
               width={500}
               className="w-15 h-15" />
             <p>Viverra lacus suspendisse elit, adipiscing orci, non turpis etiam sapien. Viverra blandit sem neque pretium. Duis enim semper fermentum consequat aenean libero. Blandit porta leo condimentum dolor, nisi, aliquet ante laoreet.</p>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 hvav">
               <Image
                 src="/3rdp.jpg"
                 alt="logo"
@@ -747,7 +747,7 @@ export default function Home() {
               width={500}
               className="w-15 h-15" />
             <p>Hendrerit augue ut nec, senectus quis integer netus. Sagittis fusce rhoncus magnis habitant amet amet. Egestas amet habitasse amet risus tellus ornare. Hendrerit augue ut nec, senectus. Mauris egestas feugiat leo vitae praesent neque, et.</p>
-            <div className="flex items-center gap-4 mt-10">
+            <div className="flex items-center gap-4 mt-10 hvav">
               <Image
                 src="/4thp.jpg"
                 alt="logo"
